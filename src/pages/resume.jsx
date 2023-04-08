@@ -3,9 +3,8 @@ import React from "react";
 
 function resume() {
     return(
-        <div>
-            <h1>DANIEL EMANUEL FUNARU</h1>
-            <h2>SOFTWARE DEVELOPER</h2>
+        <div className="resume">
+            
             <div>
                 <h2>SKILLS</h2>
                 <ul>

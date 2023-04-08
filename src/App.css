@@ -11,35 +11,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-  .navBar {
-    display: block;
-    color: white;
-    text-align: center;
-    /* padding: 14px 16px; */
-    text-decoration: none;
-    list-style-type: none;
-    overflow: hidden;
-    display: block;
-    width: 100%;
-    height: 10vh;
-    
-  }
-  
-  
-  .links a{
-    float: left;
-    color: rgb(14, 0, 0);
-    font-family: 'Secular One', sans-serif;
-    text-indent: 150px;
-    font-size: larger;
-    font-style: bold, italic;
-    text-decoration: none;
-  }
-  
-  .Nav ul{
-  
-    display: flex;
-    }
 }
 
 .App-header {

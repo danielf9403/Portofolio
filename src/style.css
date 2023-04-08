@@ -1,0 +1,51 @@
+
+body{
+    background-color: blue;
+}
+ 
+.headName{
+    text-align: center;
+}
+
+.links a{
+    margin-bottom: 3rem;
+    float: left;
+    color: rgb(239, 244, 246);
+    font-family: 'Secular One', sans-serif;
+    text-indent: 150px;
+    font-size: larger;
+    font-style: bold, italic;
+    text-decoration: none;
+    margin: 0 auto;
+    display:flex;
+  }
+  
+  
+  .icon {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+  
+  .icon a {
+    color: whitesmoke;
+    font-size: 2rem;
+    display: d-flex justity-content-evenly;
+  }
+
+  .resume{
+    margin-top: 3rem;
+    text-align: center;
+    
+  }
+
+  .resume ul{
+    text-decoration: none;
+  }

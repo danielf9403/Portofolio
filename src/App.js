@@ -11,15 +11,16 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import Resume from "./pages/resume";
 
-import './App.css';
 
+import './style.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return(
     
       <div>
         <Router>
-          <Name/>
+          {/* <Name/> */}
           <br/>
           <NavBar />
           <Sidebar></Sidebar>
