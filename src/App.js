@@ -20,10 +20,8 @@ function App() {
     
       <div>
         <Router>
-          {/* <Name/> */}
-          <br/>
           <NavBar />
-          <Sidebar></Sidebar>
+          <Sidebar/>  
             <Routes>
               <Route exact path="/" element={<Home/>} />
               <Route path="/contact" element={<Contact/>} />
