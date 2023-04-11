@@ -60,7 +60,7 @@ body{
     bottom: 0;
     right: 0;
     display: inline-flex;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
     align-content: center;
     width: auto;
 }
@@ -75,7 +75,34 @@ body{
 .home-pic {
     width: 400px;
     height: 400px;
-    margin-top: 10rem;
+    margin-top: 4rem;
   border: 3px solid black;
   
+}
+
+.c-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .c-side {
+  width: 200px;
+} */
+
+.c-wrap {
+  display: inline-block;
+  flex-direction: row;
+  
+}
+
+.c-nav {
+  margin-top: 2rem;
+  order: -1;
+  flex-grow: 1;
+}
+
+.c-main {
+  margin-top: 4rem;
+  text-align: center;
+  width: 100%;
 }

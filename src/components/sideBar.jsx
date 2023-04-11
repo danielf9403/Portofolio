@@ -18,7 +18,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
 
-          <a href='mailto:daniel94@gmail.com'>
+          <a href="mailto:daniel94.dd@gmail.com?subject={subject}&body={body}">
             <FontAwesomeIcon icon={faGoogle} />
           </a>
 
