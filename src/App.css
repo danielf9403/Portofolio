@@ -1,0 +1,35 @@
+.p-container{
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.p-carousel{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s forwards linear;
+}
+
+.p-box{
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  box-shadow: inset 0 0 0 2000px rbga(0, 0, 0, 0.5);
+  display: flex;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
