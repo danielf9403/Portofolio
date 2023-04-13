@@ -8,7 +8,7 @@ function resume() {
             <div>
                 <h2>SKILLS</h2>
                 <ul>
-                    <li>Web Design</li>
+                    <li className="r-list">Web Design</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>UX/UI</li>

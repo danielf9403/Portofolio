@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+body{
+  background-color: darkblue;
+}
+ 
 .app-wrap {
   display: inline-block;
   flex-direction: row;
@@ -18,20 +22,13 @@
 }
 
 .app-main {
-  margin-top: 4rem;
-  text-align: center;
-  width: 100%;
-}
-
-body{
-  background-color: darkblue;
-}
- 
-.headName{
-    text-align: center;
+  /* margin-top: 4rem; */
+  /* text-align: center; */
+  /* width: 100%; */
 }
 
 
+/* style navBar */
 .navBar {
     display: flex;
     justify-content: center;
@@ -52,6 +49,7 @@ body{
     font-family: 'Secular One', sans-serif;
 }
   
+/* style sidebar */
 .icon {
 
   position: fixed;
@@ -71,22 +69,26 @@ body{
   display: d-flex justity-content-evenly;
 }
 
+/* style resume page */
 .resume{
   margin-top: 3rem;
   text-align: center;
-  
+  color: rgba(240, 0, 48, 0.697);
 }
 .resume ul{
-  text-decoration: none;
+  list-style-type: none;
 }
 
+/* style home page */
+.headName{
+    text-align: center;
+}
 .home{
-    bottom: 0;
-    right: 0;
+    
     display: inline-flex;
-    /* margin-left: 10rem; */
+    margin: auto;
     align-content: center;
-    width: auto;
+    position: absolute;
 }
 
 .home-name {
@@ -123,8 +125,9 @@ body{
 
 .app-main {
   margin-top: 4rem;
-  text-align: center;
+  margin: 0;
   width: 100%;
+  height: auto;
 }
 
 body{
@@ -217,4 +220,12 @@ span{
   height: 100%;
   background-color: transparent;
   border: none;
+}
+
+/* style contact page */
+
+.contact-body{
+  width: auto;
+  margin: 0;
+  text-align: center;
 }
