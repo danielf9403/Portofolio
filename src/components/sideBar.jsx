@@ -1,8 +1,8 @@
 import React from 'react';
-import {faInstagram, faGithub, faLinkedin, faDiscord, faReddit, faGoogle, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram, faGithub, faLinkedin, faDiscord, faTelegram, faGoogle, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container } from 'react-bootstrap';
-
+// import { GoogleApis } from 'googleapis';
 
 
 const Sidebar = () => {
@@ -22,7 +22,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faGoogle} />
           </a>
 
-          <a href='mailto:daniel94@gmail.com'>
+          <a href='https://api.whatsapp.com/send?phone=2678155443'>
           <FontAwesomeIcon icon={faWhatsapp} />
           </a>
 
@@ -35,7 +35,7 @@ const Sidebar = () => {
           </a>
 
           <a href='https://www.instagram.com/daniel.ef94'>
-            <FontAwesomeIcon icon={faReddit} />
+            <FontAwesomeIcon icon={faTelegram} />
           </a>
 
         </div>

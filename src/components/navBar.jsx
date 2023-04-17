@@ -6,11 +6,11 @@ const Navbar = () => { // Changed function to an arrow function
 
         <div className="navBar">
             <div className="links">
-                <NavLink to="/"> Home</NavLink>
-                <NavLink to="/about">About Me</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/resume">Resume</NavLink>
-                <NavLink to="/contact">Contact Me</NavLink>
+                <NavLink to="/"> <h2>Home</h2></NavLink>
+                <NavLink to="/about"><h2>About Me</h2></NavLink>
+                <NavLink to="/projects"><h2>Projects</h2></NavLink>
+                <NavLink to="/resume"><h2>Resume</h2></NavLink>
+                <NavLink to="/contact"><h2>Contact Me</h2></NavLink>
             </div>
         </div>
 
