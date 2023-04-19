@@ -1,32 +1,43 @@
+import emailjs from "emailjs-com";
 import React from 'react';
-import { MDBInput, MDBBtn, MDBValidation, MDBValidationItem, MDBTextArea } from 'mdb-react-ui-kit';
 
-export default function App() {
-  return (
-    <div className='contact-body'>
-        <MDBValidation noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '300px' }}>
-          <h2>Contact me</h2>
+export default function Contact() {
 
-          <MDBValidationItem invalid feedback='Please provide your name.'>
-            <MDBInput label='Name' v-model='name' wrapperClass='mb-4' required />
-          </MDBValidationItem>
+    function sendEmail(e) {
+        e.preventDefault();
 
-          <MDBValidationItem invalid feedback='Please provide your email.'>
-            <MDBInput type='email' label='Email address' v-model='email' wrapperClass='mb-4' required />
-          </MDBValidationItem>
+    emailjs.sendForm('gmail', 'template_c3tmk9e', e.target, 'service_aza2ygc')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
 
-          <MDBValidationItem invalid feedback='Please provide mail subject.'>
-            <MDBInput label='Subject' v-model='subject' wrapperClass='mb-4' required />
-          </MDBValidationItem>
-
-          <MDBValidationItem invalid feedback='Please provide a message text.'>
-            <MDBTextArea wrapperClass='mb-4' label='Message' required />
-          </MDBValidationItem>
-
-          <MDBBtn type='submit' color='primary' block className='my-4'>
-            Send
-          </MDBBtn>
-        </MDBValidation>
-    </div>
-  );
+    return(
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>  
+          <div className="contac-container">
+              <form onSubmit={sendEmail}>
+                      <div className="row pt-10 mx-auto">
+                          <div className="col-8 form-group mx-auto">
+                              <input type="text" className="form-control" placeholder="Name" name="name"/>
+                          </div>
+                          <div className="col-8 form-group pt-4 mx-auto">
+                              <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                          </div>
+                          <div className="col-8 form-group pt-2 mx-auto">
+                              <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                          </div>
+                          <div className="col-8 form-group pt-2 mx-auto">
+                              <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                          </div>
+                          <div className="col-8 pt-3 mx-auto">
+                              <input type="submit" className="btn btn-info" value="Send Message"></input>
+                          </div>
+                      </div>
+              </form>
+          </div>
+        </div>
+    )
 }

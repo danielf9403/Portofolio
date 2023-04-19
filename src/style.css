@@ -96,18 +96,18 @@ body{
   width: auto;
   height: fit-content;
   text-align: right;
-  margin-top: 15rem;
+  margin-top: 10rem;
   margin-left: 10rem;
 }
 .home-pic {
     width: 400px;
     height: 400px;
     margin-top: 3rem;
-  border: 3px solid black;
+  border: 3px solid rgb(19, 5, 127);
   
 }
 /* app style*/
-.app-body {
+/* .app-body {
   display: flex;
   flex-direction: column;
 }
@@ -129,10 +129,10 @@ body{
   margin: 0;
   width: 100%;
   height: auto;
-}
+} */
 
 body{
-  background-color: rgb(2, 2, 16);
+  background-color: rgb(0, 0, 54);
   color:blue;
 }
 
@@ -229,8 +229,9 @@ span{
 
 /* style contact page */
 
-.contact-body{
-  width: auto;
-  margin: 0;
-  text-align: center;
+.contac-container{
+  display: 'flex';
+  justify-content: 'center'; 
+  align-items: 'center';
+  height: '100vh'
 }
