@@ -7,12 +7,12 @@ import Sidebar from "./components/sideBar";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Projects from "./pages/projects";
-import Contact from "./pages/contact";
+import { Contact } from "./pages/contact";
 import Resume from "./pages/resume";
 
 import './App.css';
 import './style.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return(
