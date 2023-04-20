@@ -2,7 +2,7 @@ import React from 'react';
 import {faInstagram, faGithub, faLinkedin, faDiscord, faTelegram, faGoogle, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container } from 'react-bootstrap';
-// import { GoogleApis } from 'googleapis';
+import { NavLink } from "react-router-dom";
 
 
 const Sidebar = () => {
@@ -18,9 +18,9 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
 
-          <a href="mailto:daniel94.dd@gmail.com?subject={subject}&body={body}">
+          <NavLink to="/contact">
             <FontAwesomeIcon icon={faGoogle} />
-          </a>
+          </NavLink>
 
           <a href='https://api.whatsapp.com/send?phone=2678155443'>
           <FontAwesomeIcon icon={faWhatsapp} />
