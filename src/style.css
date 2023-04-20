@@ -9,8 +9,14 @@ body{
 .navBar {
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
 }
   
+
 .links {
     text-decoration: none;
     display: flex;
@@ -43,7 +49,7 @@ body{
   
 .icon a {
   color:blue;
-  font-size: 2rem;
+  font-size: 3rem;
   display: d-flex justity-content-evenly;
 }
 
@@ -62,7 +68,7 @@ body{
     text-align: center;
 }
 .home{
-    
+    margin-top: 10rem;
     display: inline-flex;
     margin-left: 11rem;
     align-content: center;
@@ -84,11 +90,12 @@ body{
   
 }
 
-/* style carousel */
+/* style projects page */
 .p-container{
+  
   position: relative;
   width: 320px;
-  margin: 100px auto 0 auto;
+  margin: 15rem auto 0 auto;
   perspective: 1000px;
   
 }
