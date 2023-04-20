@@ -34,7 +34,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faDiscord} />
           </a>
 
-          <a href='https://www.instagram.com/daniel.ef94'>
+          <a href='https://t.me/DFunaru94'>
             <FontAwesomeIcon icon={faTelegram} />
           </a>
 
