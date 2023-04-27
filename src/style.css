@@ -86,7 +86,7 @@ body{
     width: 400px;
     height: 400px;
     margin-top: 3rem;
-  border: 3px solid rgb(19, 5, 127);
+    border: 3px solid rgb(4, 4, 6);
   
 }
 
@@ -214,4 +214,101 @@ input[type="submit"]{
 label{
   margin-top: 1rem;
   align-self: flex-start;
+}
+
+/* about page style */
+.about {
+  margin-top: 8rem;
+    display: inline-flex;
+    margin-left: 11rem;
+    align-content: center;
+    position: absolute;
+}
+
+
+.about-name-paragraf{
+  width: auto;
+  height: fit-content;
+  text-align: right;
+  margin-top: 4rem;
+  
+}
+
+.about-name{
+  width: auto;
+  height: fit-content;
+  text-align: right;
+  width: fit-content;
+  margin-left: 6rem;
+  
+}
+
+.about-paragraf {
+  color: aqua;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  width: auto;
+  height: fit-content;
+  
+}
+
+.about-pic {
+  margin-top: 3rem;
+  
+}
+
+.carousel-pics{
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+  
+}
+
+.flag {
+  height: 8%;
+  width: 100%;
+  
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.flag-color {
+  flex-grow: 1;
+}
+
+.red {
+  background-color: red;
+  width: auto;
+  height: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: auto;
+  height: 100%;
+}
+
+.blue {
+  background-color: blue;
+  width: auto;
+  height: 100%;
+}
+
+
+.div1{
+  background-color: rgb(61, 4, 4);
+}
+.div2{
+  background-color: rgb(157, 11, 11);
+}
+.div3{
+  background-color: rgb(20, 19, 64);
+}
+
+.about-pic-carousel{
+  display: flex;
+  justify-content: center;
 }
