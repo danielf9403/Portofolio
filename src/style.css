@@ -55,8 +55,10 @@ body{
 
 /* style resume page */
 .resume{
-  margin-top: 3rem;
-  text-align: center;
+  width:auto;
+  height: fit-content;
+  margin-top: 8rem;
+  margin-left: 8rem;
 
 }
 .resume ul{
@@ -87,7 +89,9 @@ body{
     height: 400px;
     margin-top: 3rem;
     border: 3px solid rgb(4, 4, 6);
-  
+    background-image: url(./assets/penup_20230427_195747.jpg);
+    background-size: cover;
+    
 }
 
 /* style projects page */
@@ -247,8 +251,9 @@ label{
   color: aqua;
   margin-top: 4rem;
   margin-left: 6rem;
-  width: auto;
+  width: 700px;
   height: fit-content;
+  text-align: left;
   
 }
 
@@ -261,7 +266,7 @@ label{
   width: 450px;
   height: 450px;
   border-radius: 10px;
-  
+  background-size: cover;
 }
 
 .flag {
@@ -299,13 +304,15 @@ label{
 
 
 .div1{
-  background-color: rgb(61, 4, 4);
+  background-image: url("./assets/beach1.jpg");
+  background-repeat: no-repeat;
+  
 }
 .div2{
-  background-color: rgb(157, 11, 11);
+  background-image: url("./assets/beach.jpg");
 }
 .div3{
-  background-color: rgb(20, 19, 64);
+  background-image: url(./assets/IMG_1558.jpg);
 }
 
 .about-pic-carousel{

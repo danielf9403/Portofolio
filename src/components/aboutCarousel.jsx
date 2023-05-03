@@ -36,7 +36,6 @@ function AboutCarousel() {
               <div className="flag-color yellow"></div>
               <div className="flag-color blue"></div>
             </div>
-            <h1>div1</h1>
           </div>    
           <div className="carousel-pics div2" style={{ display: activeSlide === 1 ? "block" : "none" }}>
             <div className="flag">
@@ -44,7 +43,6 @@ function AboutCarousel() {
               <div className="flag-color yellow"></div>
               <div className="flag-color blue"></div>
             </div>
-            <h1>div2</h1>
           </div>    
           <div className="carousel-pics div3" style={{ display: activeSlide === 2 ? "block" : "none" }}>
             <div className="flag">
@@ -52,7 +50,6 @@ function AboutCarousel() {
               <div className="flag-color yellow"></div>
               <div className="flag-color blue"></div>
             </div>
-            <h1>div3</h1>
           </div>
         </div>
         <div className="about-pic-carousel">
