@@ -11,8 +11,12 @@ body{
     justify-content: center;
     position: fixed;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 94%;
     z-index: 100;
+    background: fixed;
+    background-color:rgb(0, 0, 54);
+    
 
 }
   
@@ -40,11 +44,13 @@ body{
   top: 0;
   left: 0;
   height: 100%;
-  width: 80px;
-  padding: 20px;
+  width:6% ;
+  /* padding: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  background-color:rgb(0, 0, 54);
 }
   
 .icon a {
@@ -59,10 +65,19 @@ body{
   height: fit-content;
   margin-top: 8rem;
   margin-left: 8rem;
-
+  
 }
 .resume ul{
   list-style-type: none;
+}
+
+.resume-mane{
+  text-align: center;
+  font-size: 2em;
+}
+
+.resume-summary{
+  
 }
 
 /* style home page */
