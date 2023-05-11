@@ -8,6 +8,7 @@ function resume() {
                 <h1>DANIEL EMANUEL FUNARU</h1>
                 <h2>FULL STACK DEVELOPER</h2>
             </div>
+
             <div className="resume-summary">
                 <h2>PROFESSIONAL SUMMARY</h2>
                 <p>
@@ -15,7 +16,7 @@ function resume() {
                 As a detail-focused developer with expertise in full-stack development, I am deeply committed to expanding my skill set and innovating new applications.
                 </p>
             </div>
-            <div>
+            <div className="resume-skills">
                 <h2>SKILLS</h2>
                 <ul>
                     <li className="r-list">Web Design</li>
@@ -28,7 +29,7 @@ function resume() {
                     
                 </ul>
             </div>
-            <div>
+            <div className="resume-education">
                 <h2>EDUCATION</h2>
                 <h3>High school </h3>
                 <p>Technical College of Communications Nicolae Vasilescu- Karpen. Computer technology technician.</p>
