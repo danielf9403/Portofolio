@@ -69,6 +69,13 @@ body{
   margin-left: 8rem;
   
 }
+
+.resume-body{
+  display: flex;
+  gap:4rem ;
+  justify-content: center;
+}
+
 .resume ul{
   list-style-type: none;
 }
@@ -78,12 +85,23 @@ body{
   font-size: 2em;
 }
 
+.resume-left{
+  width: 40%;
+  column-gap: 2rem;
+}
+
 .resume-summary{
-  width: 75%;
-  text-align: right; 
-  width: 45%;
   justify-content: center;
-  text-align: center;
+  margin-right: 0;
+  
+}
+
+.resume-skills{
+
+}
+
+.resume-experience{
+  width: 40%;
 }
 
 /* style home page */
@@ -104,7 +122,8 @@ body{
   height: fit-content;
   text-align: right;
   margin-top: 10rem;
-  margin-left: 10rem;
+  margin-left: 1rem;
+  font-size: xx-large;
 }
 
 .home-pic {
@@ -124,7 +143,7 @@ body{
   width: 320px;
   margin: 15rem auto 0 auto;
   perspective: 1000px;
-  
+  color: azure;
 }
 
 
@@ -151,16 +170,19 @@ body{
   display: block;
   border: 2px solid black;
   text-decoration: none;
-  
+
 }
 
 .p-box a {
   text-decoration: none;
 }
+
 span{
   margin: auto;
   font-size: 2rem;
+  color: azure;
 }
+
 @keyframes rotate360 {
   from {
     transform: rotate(0deg);
@@ -176,7 +198,9 @@ span{
 }
 
 .p-box:nth-child(2){
-  background-color: rgb(170, 196, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./assets/background.png);
   transform: rotateY(60deg) translateZ(430px);
 }
 
@@ -341,4 +365,9 @@ label{
 .about-pic-carousel{
   display: flex;
   justify-content: center;
+}
+
+.portofolio-body{
+  
+  color: rgb(193, 5, 5);
 }
