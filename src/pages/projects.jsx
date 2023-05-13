@@ -1,17 +1,13 @@
 
 import React from 'react';
-import { useState } from 'react';
-import Portofolio from '../components/portofolio.jsx';
+import { Link } from 'react-router-dom';
+
 
 
 const ProjectCarousel = () => {
-  const [showPortofolio, setShowPortofolio] = useState(false);
-
   const handleButtonClick = (projectName) => {
     console.log(`Clicked on ${projectName} button`);
-    if (projectName === 'Portofolio') {
-      setShowPortofolio(true);
-    }
+    
   };
 
   return (
@@ -25,12 +21,13 @@ const ProjectCarousel = () => {
           </a>
         </div>
         
-        <div className={`p-box ${showPortofolio ? 'portofolio' : ''}`}>
-        {showPortofolio && <Portofolio />}
-        <button onClick={() => handleButtonClick('Portofolio')}>
-          <span>Portofolio</span>
-        </button>
-      </div>
+        <div className={`p-box `}>
+          <Link to="../components/portofolio.jsx">
+            <button onClick={() => handleButtonClick('Portofolio')}>
+              <span>Portofolio</span>
+            </button>
+          </Link>
+        </div>
         
         <div className="p-box">
           <button onClick={() => handleButtonClick('Loading ...')}>

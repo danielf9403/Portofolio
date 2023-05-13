@@ -1,16 +1,12 @@
 import React from 'react';
+import PortofolioPage from '../pages/portofolioPage'
 
 const Portofolio = () => {
-  const handleSeeCodeClick = () => {
-    window.open('/portofolio', '_blank');
-  };
+
 
   return (
-    <div className="portofolio-body">
-      <h1>Portofolio</h1>
-      <button onClick={handleSeeCodeClick}>
-        <span>SEE CODE</span>
-      </button>
+    <div>
+        <PortofolioPage/>
     </div>
   );
 };
