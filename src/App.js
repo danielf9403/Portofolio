@@ -9,10 +9,12 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import { Contact } from "./pages/contact";
 import Resume from "./pages/resume";
+import PortofolioPage from "./pages/portofolioPage";
+
 
 import './App.css';
 import './style.css';
-
+import './index.css';
 
 function App() {
   return(
@@ -33,6 +35,7 @@ function App() {
                   <Route path="/about" element={<About/>} />
                   <Route path="/projects" element={<Projects/>} />
                   <Route path="/resume" element={<Resume />} />
+                  <Route path="/portofolioPage" element={<PortofolioPage />} />
                 </Routes>
             </div>
           </div>

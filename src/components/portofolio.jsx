@@ -1,14 +1,14 @@
-import React from 'react';
-import PortofolioPage from '../pages/portofolioPage'
+import React from "react";
 
-const Portofolio = () => {
-
-
-  return (
-    <div>
-        <PortofolioPage/>
+const portofolioPage = () => {
+  return(
+    <div  className="portofolio-body">
+      <h1>Portofolio</h1>
+      <button>
+        <span>SEE CODE</span>
+      </button>
     </div>
-  );
+  )
 };
 
-export default Portofolio;
+export default portofolioPage

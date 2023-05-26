@@ -1,14 +1,12 @@
 
 @media only screen and (max-width: 1500px) {
-    .navBar {
-      display: flex;
-      justify-content: flex-end;
-      position: static;
-      top: 0;
-      right: 0;
-      width: 94%;
-      z-index: 100;
-    }
+  .navBar {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    width: 94%;
+    z-index: 100;
+  }
     
     .sidebar {
       width: 6%;

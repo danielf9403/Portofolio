@@ -1,7 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom"; // Used NavLink instead of Link
+import { NavLink } from "react-router-dom";
 
-const Navbar = () => { // Changed function to an arrow function
+const Navbar = () => {
     return(
 
         <div className="navBar">
