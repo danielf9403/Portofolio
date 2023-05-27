@@ -39,7 +39,7 @@ function ProjectsCarousel() {
                 <p>Description!!!!!!1</p>
               </div>
               <div className="projects-button-wrap">
-                  <a href="">
+                  <a href="https://github.com/danielf9403/milestone-one.git">
                     <button className="project-button">
                         <span>See Code</span>
                     </button>
@@ -58,7 +58,7 @@ function ProjectsCarousel() {
                 <p>Description!!!!!!1</p>
               </div>
               <div className="projects-button-wrap">
-                  <a href="">
+                  <a href="https://github.com/danielf9403/Portofolio.git">
                     <button className="project-button">
                         <span>See Code</span>
                     </button>
@@ -80,11 +80,11 @@ function ProjectsCarousel() {
 
         </div>
 
-        <div className="projects-pic-carousel">
+        {/* <div className="projects-pic-carousel">
             <input checked={activeSlide === 0} onChange={handleRadioInputChange} type="radio" name="position" value="0" />
             <input checked={activeSlide === 1} onChange={handleRadioInputChange} type="radio" name="position" value="1" />
             <input checked={activeSlide === 2} onChange={handleRadioInputChange} type="radio" name="position" value="2" />
-        </div>
+        </div> */}
     </div>
 
     
