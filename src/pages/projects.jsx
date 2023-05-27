@@ -39,12 +39,16 @@ function ProjectsCarousel() {
                 <p>Description!!!!!!1</p>
               </div>
               <div className="projects-button-wrap">
-                  <button>
-                      <span>See Code</span>
-                  </button>
-                  <button>
-                      <span>Play</span>
-                  </button>
+                  <a href="">
+                    <button className="project-button">
+                        <span>See Code</span>
+                    </button>
+                  </a>
+                  <a href="https://milestone-one-one.vercel.app/">
+                    <button className="project-button">
+                        <span>Play</span>
+                    </button>
+                  </a>
               </div>
             </div> 
 
@@ -54,9 +58,11 @@ function ProjectsCarousel() {
                 <p>Description!!!!!!1</p>
               </div>
               <div className="projects-button-wrap">
-                  <button>
-                      <span>See Code</span>
-                  </button>
+                  <a href="">
+                    <button className="project-button">
+                        <span>See Code</span>
+                    </button>
+                  </a>
               </div>
 
             </div>    
@@ -69,7 +75,7 @@ function ProjectsCarousel() {
               </div>
 
             </div>
-            
+
           </div>
 
         </div>

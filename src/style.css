@@ -9,7 +9,7 @@ body{
 .navBar {
     display: flex;
     justify-content: center;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     right: 0;
     width: 94%;
@@ -25,7 +25,7 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-    width: 70%; /*change this value to adjust the width of the navbar*/
+    width: 70%; 
 }
   
 .links a {
@@ -150,22 +150,22 @@ body{
  .project-pics{
    /* border: 100%; */
    width: 100%;
-   height: 100vh;
+   height: 73vh;
    background-size: cover;
  }
  
  .project-div1{
-   background-color: rgb(132, 132, 247);
+  
    width: 100%;
    height:100%;
  }
  .project-div2{
-   background-color: rgb(213, 43, 0);
+   
    width: 100%;
    height:100%;
  }
  .project-div3{
-   background-color: rgb(253, 241, 9);
+   
    width: 100%;
    height:100%;
  }
@@ -173,7 +173,7 @@ body{
  .projects-pic-carousel{
    display: flex;
    justify-content: center;
-   margin-top: 3%;
+   margin-top: 5%;
  }
  
  .portofolio-body{
@@ -184,20 +184,25 @@ body{
  .projects-button-wrap {
    display: flex;
    justify-content: center;
-   margin-left: 25%;
-   margin-right: 25%;
+   margin-left: 5rem;
+   margin-right: 5rem;
    
  }
  
  .projects-button-wrap button {
-   margin: 0 25%; /*Adjust the margin between buttons if needed */
+   margin: 0 15%;
    bottom: 0;
    
  }
  
 .project-title{
   text-align: center;
-} 
+}
+
+.project-button{
+  width: 150px;
+  height: 50px;
+}
 
 /* style contact page */
 
