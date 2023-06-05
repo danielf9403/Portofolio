@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+const [activeSlide, setActiveSlide] = useState(0);
+
+  function incrementSlide() {
+    setActiveSlide((prevState) => {
+      if (prevState === 2) {
+        // Maximum index reached, reset to 0
+        return 0;
+      } else {
+        return prevState + 1;
+      }
+    });
+  }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      incrementSlide();
+    }, 8000); // Change the number (in milliseconds) to adjust autoplay speed
+
+    return () => clearInterval(interval);
+  }, []);
+
+  function handleRadioInputChange(event) {
+    setActiveSlide(Number(event.target.value));
+  }
+
+line 12
+<div className="project-pics" style={{ display: activeSlide === 0 ? "block" : "none" }}>

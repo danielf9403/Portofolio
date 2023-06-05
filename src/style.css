@@ -140,46 +140,67 @@ body{
 /* style projects page */
 .projects-wrap{
   width: 94%;
-  /* height: 100rem; */
   margin-top: 6%;
   margin-left: 6%;
   margin-bottom: 1rem;
 }
  
- 
- .project-pics{
-   /* border: 100%; */
-   width: 100%;
-   height: 73vh;
+.project-title{
+  text-size-adjust: 50px;
+} 
+
+ .project-layout{
+   width: 90%;
+   height: 100vh;
    background-size: cover;
+   /* border: 5px solid black; */
+   margin-top: 5rem;
+   margin-left: 2rem;
  }
  
- .project-div1{
-  
+ .project-div{
+  margin-top: 5rem;
+    display: inline-flex;
+    /* margin-left: 11rem; */
+    align-content: center;
+    position: absolute;
    width: 100%;
-   height:100%;
+   height:75%;
  }
- .project-div2{
-   
-   width: 100%;
-   height:100%;
+
+ .project-description{
+  font-size: x-large;
+  margin-top: 8rem;
+  margin-left: 6rem;
+  width: 450px;
+  height: 450px;
+  text-align: left;
+  align-content: center;
  }
- .project-div3{
-   
-   width: 100%;
-   height:100%;
+
+ .project-pic-portoflo{
+  width: 750px;
+  height: 350px;
+  border-radius: 10px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 3px solid white;
+  background-image: url(./assets/background.png);
+  align-content: center;
  }
- 
- .projects-pic-carousel{
-   display: flex;
-   justify-content: center;
-   margin-top: 5%;
+
+ .project-pic-pac{
+  width: 750px;
+  height: 370px;
+  border-radius: 10px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 3px solid white;
+  background-image: url(./assets/pac-man.png);
  }
- 
- .portofolio-body{
-   
-   color: rgb(193, 5, 5);
- }
+
  
  .projects-button-wrap {
    display: flex;
@@ -240,7 +261,7 @@ label{
 
 /* about page style */
 .about {
-  margin-top: 8rem;
+    margin-top: 8rem;
     display: inline-flex;
     margin-left: 11rem;
     align-content: center;
